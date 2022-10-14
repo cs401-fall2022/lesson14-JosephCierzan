@@ -16,13 +16,16 @@
         <section id="mainContent">
             <h2>What exactly is TypeScript?</h2>
                 <p>TypeScript is a superset of JavaScript which primarily provides optional static typing, classes and interfaces.
-                   
+                    TypeScript offers all of JavaScript’s features, and an additional layer on top of these: TypeScript’s type system.
+
+For example, JavaScript provides language primitives like string and number, but it doesn’t check that you’ve consistently assigned these. TypeScript does.
                 </p>
 
 
             <h2>How is TypeScript different from JavaScript?</h2>
-                <p> Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Ut tellus elementum sagittis vitae et leo duis ut diam. Maecenas sed enim ut sem viverra aliquet eget sit amet. At consectetur lorem donec massa sapien. Sed viverra ipsum nunc aliquet. Sollicitudin nibh sit amet commodo nulla facilisi. Erat nam at lectus urna duis. Nam at lectus urna duis convallis convallis tellus. Pretium quam vulputate dignissim suspendisse in.
-
+                <p> 
+                    There isn't too much of a difference, the only real difference is that in TypeScript you 
+                    have to tell the types. 
                 </p>
 
             <h2>How to define Types</h2>
@@ -41,7 +44,11 @@
 
                 <img src="/Pictures/DiffTypes.PNG" alt="can put code snips here"> 
             <h2>Creating complex Types by combining</h2>
-                <p>Urna nec tincidunt praesent semper feugiat nibh sed pulvinar proin. Vel pharetra vel turpis nunc eget lorem dolor. Turpis massa tincidunt dui ut ornare. Non odio euismod lacinia at. Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Aliquam ut porttitor leo a diam sollicitudin tempor id.
+                <p>With TypeScript, you can create complex types by combining simple ones. There are two popular ways to do so: with unions, and with generics.
+
+                    Unions
+                    With a union, you can declare that a type could be one of many types. For example, you can describe a boolean type as being either true or false:
+
 
                 </p>
 
