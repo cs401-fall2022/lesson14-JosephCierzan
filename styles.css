@@ -1,3 +1,40 @@
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color:lightsteelblue;
+}
+
+
 #header {
     background-color: rebeccapurple;
+}
+
+#boxOne {
+    border-radius: 25px;
+    padding: 20px;
+    background-color: cyan;
+}
+
+#boxTwo {
+    background-color: yellowgreen;
+}
+
+#boxThree {
+    background-color: palegoldenrod;
+}
+
+#boxFour {
+    background-color: palevioletred;
+}
+
+#boxFive {
+    background-color: lightgreen;
+}
+
+#boxSix {
+    background-color: rgb(231, 26, 39);
+}
+
+#boxSeven {
+    background-color: rgb(113, 93, 175);
 }
