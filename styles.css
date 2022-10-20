@@ -1,14 +1,8 @@
+/* General Rules */
 body {
     margin-left: 10%;
     margin-right: 10%;
     background-color:rgb(133, 160, 196);
-    /* background-image: url('/Pictures/typescriptlogo.png'); */
-}
-
-#header {
-    background-attachment:fixed;
-    background-size:contain;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .codeBox{
@@ -34,37 +28,67 @@ body {
         0 0.07em black,
         -0.07em 0 black,
         0 -0.07em black;
-    
 }
+
+.pictures {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+/* Header */
+#header {
+    background-attachment:fixed;
+    background-size:contain;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* First Box */
+#boxOnePic1{
+    margin-left: 70%; 
+    display: inline;
+} 
+#boxOnePic2{
+    margin-right: 30%; 
+    display: inline;
+} 
 
 #boxOne {
     background-image: linear-gradient(to left, #09ffff, #716a79);
+
 }
 
+/* Second Box */
 #boxTwo {
     background-image: linear-gradient(to left, #2ae0a9, #716a79);
 }
 
+/* Third Box */
 #boxThree {
     background-image: linear-gradient(to left, #99b420, #716a79);
 }
 
+/* Fourth Box */
 #boxFour {
     background-image: linear-gradient(to left, #79105e, #716a79);
 }
 
+/* Fifth Box */
 #boxFive {
     background-image: linear-gradient(to left, #42e64a, #716a79);
 }
 
+/* Sixth Box */
 #boxSix {
     background-image: linear-gradient(to left, #e42c2c, #716a79);
 }
 
+/* Seventh Box */
 #boxSeven {
     background-image: linear-gradient(to left, #250e63, #716a79);
 }
 
+/* Eigth Box */
 #boxEight {
 
 }
