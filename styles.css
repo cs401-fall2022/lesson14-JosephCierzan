@@ -1,42 +1,68 @@
 body {
     margin-left: 10%;
     margin-right: 10%;
-    background-color:lightsteelblue;
+    background-color:rgb(133, 160, 196);
+    /* background-image: url('/Pictures/typescriptlogo.png'); */
 }
 
-
 #header {
-    background-color: rebeccapurple;
+    background-attachment:fixed;
+    background-size:contain;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.codeBox{
+    background-color: black;
+    border-color: red;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial;
+    padding: 12px;
 }
 
 .contentBox {
     border-radius: 25px;
     padding: 20px;
-    background-color: cyan;
+}
+
+.contentBox p{
+    color: white;
+    font-size: 20px;
+    text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
+    
+}
+
+#boxOne {
+    background-image: linear-gradient(to left, #09ffff, #716a79);
 }
 
 #boxTwo {
-    background-color: yellowgreen;
+    background-image: linear-gradient(to left, #2ae0a9, #716a79);
 }
 
 #boxThree {
-    background-color: palegoldenrod;
+    background-image: linear-gradient(to left, #99b420, #716a79);
 }
 
 #boxFour {
-    background-color: palevioletred;
+    background-image: linear-gradient(to left, #79105e, #716a79);
 }
 
 #boxFive {
-    background-color: lightgreen;
+    background-image: linear-gradient(to left, #42e64a, #716a79);
 }
 
 #boxSix {
-    background-color: rgb(231, 26, 39);
+    background-image: linear-gradient(to left, #e42c2c, #716a79);
 }
 
 #boxSeven {
-    background-color: rgb(113, 93, 175);
+    background-image: linear-gradient(to left, #250e63, #716a79);
 }
 
 #boxEight {
