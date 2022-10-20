@@ -2,7 +2,7 @@
 body {
     margin-left: 10%;
     margin-right: 10%;
-    background-color:rgb(133, 160, 196);
+    background-color:rgb(59, 72, 88);
 }
 
 .codeBox{
@@ -22,12 +22,16 @@ body {
 
 .contentBox p{
     color: white;
-    font-size: 20px;
-    text-shadow:
-        0.07em 0 black,
-        0 0.07em black,
-        -0.07em 0 black,
-        0 -0.07em black;
+    font-family: 'Verdana ', sans-serif;
+}
+
+.contentBox h2{
+    color: black;
+    font-size: 30px;
+    background-image: linear-gradient(to left, #452e81, #716a79);
+    border-radius: 30px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .pictures {
@@ -43,6 +47,15 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* Navigation Box */
+.navBox {
+    position: center;
+    background: white;
+    border-radius: 50% / 10%;
+    color: black;
+    text-align: center;
+}
+
 /* First Box */
 #boxOnePic1{
     margin-left: 70%; 
@@ -54,41 +67,45 @@ body {
 } 
 
 #boxOne {
-    background-image: linear-gradient(to left, #09ffff, #716a79);
+    background-color: grey;
 
 }
 
 /* Second Box */
 #boxTwo {
-    background-image: linear-gradient(to left, #2ae0a9, #716a79);
+    background-color: rgb(156, 135, 135);
 }
 
 /* Third Box */
 #boxThree {
-    background-image: linear-gradient(to left, #99b420, #716a79);
+    background-color: rgb(128, 144, 187);
 }
 
 /* Fourth Box */
 #boxFour {
-    background-image: linear-gradient(to left, #79105e, #716a79);
+    background-color: rgb(126, 87, 114);
 }
 
 /* Fifth Box */
 #boxFive {
-    background-image: linear-gradient(to left, #42e64a, #716a79);
+    background-color: rgb(69, 148, 99);
 }
 
 /* Sixth Box */
 #boxSix {
-    background-image: linear-gradient(to left, #e42c2c, #716a79);
+    background-color: rgb(151, 133, 73);
 }
 
 /* Seventh Box */
 #boxSeven {
-    background-image: linear-gradient(to left, #250e63, #716a79);
+    background-color: rgb(135, 145, 156);
 }
 
-/* Eigth Box */
-#boxEight {
-
+/* Footer */
+#footerText {
+    font-style: italic;
+    text-align: center;
+    font-size: 12pt;
 }
+
+
