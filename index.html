@@ -10,18 +10,19 @@
     <body>
         <section id="header">
             <div>
-                <h1 class="tes" style="color:white; text-align: center">TypeScript tutorial for junior engineers</h1>
+                <h1 class="title" style="color:white; text-align: center">TypeScript tutorial for junior engineers</h1>
             </div>
         </section> 
-        <div class="navBox">
-            <h2>Navigation</h2>
+        <div class="navBox"> 
+        </br>
             <a href="#boxOne" >JavaScript vs TypeScript</a> |
             <a href="#boxTwo" >How to define Types</a> |
             <a href="#boxThree" >The different Types</a> |
             <a href="#boxFour" >Complex Types</a> |
             <a href="#boxFive" >Using generics with Types</a> |
             <a href="#boxSix" >The Structural Type System</a> |
-            <a href="#boxSeven" >Extra Resources</a> |
+            <a href="#boxSeven" >Extra Resources</a> | </br>
+        </br>
         </div>
         <section id="mainContent">
 
@@ -57,7 +58,7 @@
                     <p>
                         You can explicitly describe this object’s shape using an interface declaration:
                         <div class="codeBox">
-                            <p><span style="color: rgb(13, 117, 151)">interface User</span> = { </br>&emsp; name: <span style="color: rgb(226, 82, 82)">string;</span>; </br>&emsp; id: <span style="color: rgb(4, 90, 57)">number</span>; </br></span>}</p>
+                            <p><span style="color: rgb(13, 117, 151)">interface User</span> = { </br>&emsp; name: <span style="color: rgb(226, 82, 82)">string;</span>; </br>&emsp; id: number</span>; </br></span>}</p>
                         </div>
                     </p>
                     <p>
@@ -74,9 +75,9 @@
                     <p>
                         Since JavaScript supports classes and object-oriented programming, so does TypeScript. You can use an interface declaration with classes:
                         <div class="codeBox">
-                            <p><span style="color: rgb(13, 117, 151)">interface User {</span> = { </br>&emsp; name: string; <span style="color: rgb(226, 82, 82)">"Joe"</span>, </br>&emsp; id: number; <span style="color: rgb(4, 90, 57)"></span> </br></span>} </br></br>
-                                class UserAccount {  </br>&emsp; name: string  </br>&emsp; name: string  </br></br>&emsp; constructor(name: string, id: number) { </br>&emsp; this.name = name; </br>&emsp; this.id = id; </br>&emsp;} </br>} </br></br>
-                                const user: User = new UserAccount("Murphy", 1);
+                            <p><span style="color: rgb(46, 97, 206)">interface </span> <span style="color: rgb(14, 200, 224)"> User</span> { </br>&emsp; name: <span style="color: rgb(14, 200, 224)"> string</span>; </br>&emsp; id: <span style="color: rgb(14, 200, 224)"> number</span>; <span style="color: rgb(4, 90, 57)"></span> </br></span>} </br></br>
+                                class UserAccount {  </br>&emsp; name: <span style="color: rgb(14, 200, 224)"> string</span>  </br>&emsp; name: <span style="color: rgb(14, 200, 224)"> string</span>  </br></br>&emsp; constructor(name: <span style="color: rgb(14, 200, 224)"> string</span>, id: <span style="color: rgb(14, 200, 224)"> number</span>) { </br>&emsp; this.name = name; </br>&emsp; this.id = id; </br>&emsp;} </br>} </br></br>
+                                const user: <span style="color: rgb(14, 200, 224)"> User</span> = new <span style="color: rgb(167, 170, 15)">UserAccount</span>(<span style="color: rgb(226, 82, 82)">"Murphy"</span>, <span style="color: rgb(4, 90, 57)">1</span>);
                             </p>
                         </div>
                     </p>
@@ -84,8 +85,8 @@
                         You can use interfaces to annotate parameters and return values to functions:
                     </p>
                     <div class="codeBox">
-                        <p><span style="color: rgb(13, 117, 151)">function getAdmin User(): User</span> = { </br>&emsp; //... <span style="color: rgb(226, 82, 82)"></span></br>}</p> </br></br>
-                        <p><span style="color: rgb(13, 117, 151)">function deleteUser (user: User)</span> { </br>&emsp; //... <span style="color: rgb(226, 82, 82)"></span></br>}</p>
+                        <p><span style="color: rgb(13, 117, 151)">function <span style="color: rgb(167, 170, 15)">getAdminUser():</span> <span style="color: rgb(14, 200, 224)">User</span>  { </br>&emsp; //... <span style="color: rgb(226, 82, 82)"></span></br>}</p> </br></br>
+                        <p><span style="color: rgb(13, 117, 151)">function <span style="color: rgb(167, 170, 15)">deleteUser</span> (user: <span style="color: rgb(14, 200, 224)">User</span>) { </br>&emsp; //... <span style="color: rgb(226, 82, 82)"></span></br>}</p>
                     </div>
                     <p>
                         There is already a small set of primitive types available in JavaScript: boolean, bigint, null, number, string, symbol, and undefined, which you can use in an interface. 
@@ -101,8 +102,12 @@
             </br>
             <div id="boxThree" class="contentBox">
                 <h2>The different Types</h2>
-                <p>Aliquam id diam maecenas ultricies. Tortor id aliquet lectus proin nibh nisl condimentum. Congue mauris rhoncus aenean vel. Auctor neque vitae tempus quam pellentesque nec nam. Id aliquet lectus proin nibh nisl condimentum id. Iaculis urna id volutpat lacus laoreet. Interdum posuere lorem ipsum dolor sit amet consectetur adipiscing. Vitae turpis massa sed elementum tempus egestas sed. Enim praesent elementum facilisis leo vel fringilla est. At varius vel pharetra vel. 
-
+                <p> 
+                    You can use a wide variety of design patterns in JavaScript. However, some design patterns make it difficult for types to be inferred automatically (for example, patterns that use dynamic programming). To cover these cases, TypeScript supports an extension of the JavaScript language, which offers places for you to tell TypeScript what the types should be.
+                </p>
+                </br>
+                <p>
+                    To learn the type of a variable, use typeof:
                 </p>
                 <img src="/Pictures/DiffTypes.PNG" alt="table of the different types in TypeScript" class="pictures"> 
             </div>

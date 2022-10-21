@@ -30,3 +30,5 @@ TODO
 ## Sources used
 
 https://www.w3schools.com/cssref/pr_class_display.asp
+https://codepen.io/alvarotrigo/pen/PoKMyNO
+
