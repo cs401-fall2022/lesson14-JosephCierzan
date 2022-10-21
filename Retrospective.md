@@ -31,4 +31,10 @@ TODO
 
 https://www.w3schools.com/cssref/pr_class_display.asp
 https://codepen.io/alvarotrigo/pen/PoKMyNO
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Shapes
+https://www.w3schools.com/cssref/css_websafe_fonts.asp
+https://www.w3schools.com/css/css3_object-fit.asp
+https://www.w3schools.com/cssref/pr_class_display.asp
+https://www.w3.org/Style/Examples/007/center.en.html
+
 
